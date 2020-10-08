@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* final del reset */
+
+body{
+    font-size: 63%;
+    background: whitesmoke;
+}
+
+h1{
+    font:normal 2.4em Verdana;
+    /* color: lightcoral; */
+    background: -webkit-linear-gradient(top, crimson 5%,  lightcoral);
+    background: -moz-linear-gradient(top, crimson 5%,  lightcoral);
+    background: -o-linear-gradient(top, crimson 5%,  lightcoral);
+    width: 40%;
+    border-radius: 10px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 15px;
+    color: whitesmoke;
+    box-shadow:coral 5px 5px 10px;
+    text-shadow: wheat 2px 2px 4px;
+}
+
+h2{
+    font: bold 1.7em Verdana;
+    margin: 0;
+    padding: 5px 0px 5px 10px;
+}
+
+section{
+    width: 90%;
+    border-top: 1px dashed grey;
+    margin: 15px auto;
+}
+
+figure{
+    float: left;
+}
+
+figure img{
+    width: 220px;
+    height: 200px;
+    padding: 4px;
+    background: indianred;
+    margin: 15px;
+    border-radius: 20px;
+    transition:  0.3s ease-in-out 0.1s;
+}
+
+figure img:hover{
+    transform: scale(1.2);
+}
+
+figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 2px;
+}
+
+footer{
+    clear:both;
+    padding-top: 30px;
+}
+
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    margin: 10px auto;
+    text-align: center;
+}
